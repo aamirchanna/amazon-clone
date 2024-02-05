@@ -290,3 +290,39 @@ ul a {
 .copyright {
     padding-top: 5px;
 }
+/* Add this at the end of your existing CSS */
+
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+
+    .navbar {
+        /* flex-direction: column; */
+        height: auto;
+    }
+
+    .nav-search {
+        width: auto;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .foot-pannel2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .foot-logo {
+        margin: 0 auto;
+    }
+    .hero-section {
+        width: auto;
+    }
+}
+
+/* Add any additional media queries for other screen sizes as needed */
